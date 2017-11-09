@@ -3,10 +3,4 @@
 ### netboot.xyz-custom menu
 ###
 
-:start
-echo Hello world!
-sleep 10
-goto custom_exit
-
-:custom_exit
-exit 0
+chain --autofree http://intranet17.linbit/ipxe/ipxe.php
